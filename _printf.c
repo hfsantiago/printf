@@ -1,5 +1,28 @@
 #include "holberton.h"
 /**
+ *controller - handle a controller a struct
+ *@str: pointer an a string.
+ *@i:position of array.
+ *
+ *Return: always 0
+ */
+
+int controller(const char *str, int *i)
+{
+	*i = *i + 1;
+	if (str[*i] == 0)
+		return (-1);
+
+	if (str[*i] == '%')
+	{
+		_putchar('%');
+		return (1);
+	}
+
+	return (0);
+}
+
+/**
  * _printf - this print.
  * @format: contain set struct
  *
@@ -7,49 +30,38 @@
  */
 int _printf(const char *format, ...)
 {
-	int length; /*this variable is for measure of length of string*/
-	int i; /*first loop for to know length of format_string*/
-	int j; /*second loop for number of format_prints*/
-	int numb_char; /*number of characters that it's going to prints*/
-	int number_prints;
+	int i, j, numb_char, aux;
 	va_list prmt;
-
-	va_start(prmt, format);
 	format_print form[] = {
 		{"c", c_printer},
 		{"s", s_printer}
 	};
 
+	va_start(prmt, format);
 	if (format == NULL)
-	{
 		return (-1);
-	}
-
-	length = _strlen(format);
-	number_prints = sizeof(form) / sizeof(form[0]);
-	for (i = 0; i < length; i++)
+	for (i = aux = numb_char = 0; format[i] != 0; i++)
 	{
 		if (format[i] == '%')
 		{
-			if (format[i + 1] == '\0')
+			aux = controller(format, &i);
+			if (aux == -1)
 				return (-1);
-
-			if (format[i + 1] == '%')
+			if (aux == 1)
 			{
-				i += 1;
-				_putchar('%');
-				numb_char += 1;
+				numb_char += aux;
 				continue;
 			}
-			for (j = 0; j < number_prints; j++)
+			for (j = 0; j < 2; j++)
 			{
 				if (format[i + 1] == *(form[j].type))
 				{
-					numb_char = form[j].funct(prmt) + numb_char;
-					i = i + 1;
+					numb_char = form[j].funct(prmt) + numb_char, i = i + 1;
 					break;
 				}
 			}
+			_putchar('%'), numb_char += 2;
+			_putchar(format[i]);
 		}
 		else
 		{
