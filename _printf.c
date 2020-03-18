@@ -57,7 +57,7 @@ int _printf(const char *fmt, ...)
 			if (selector(fmt[i]) ==  NULL)
 			{
 				_putchar('%'), _putchar(fmt[i]);
-				size++;
+				size += 2;
 			}
 			else
 			{
