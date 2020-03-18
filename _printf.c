@@ -1,62 +1,74 @@
 #include "holberton.h"
 /**
- * _printf - this print.
- * @format: contain set struct
+ *selector - pointer to selector.
+ *@c: char c.
  *
- * Return: return a character of strings.
+ *Return: always NULL
  */
-int _printf(const char *format, ...)
-{
-	int length; /*this variable is for measure of length of string*/
-	int i; /*first loop for to know length of format_string*/
-	int j; /*second loop for number of format_prints*/
-	int numb_char; /*number of characters that it's going to prints*/
-	int number_prints;
-	va_list prmt;
 
+int (*selector(char c)) (va_list)
+{
+	int n_formats, i;
 	format_print form[] = {
 		{"c", c_printer},
 		{"s", s_printer}
 	};
 
-	va_start(prmt, format);
-
-	if (format == NULL)
+	n_formats = sizeof(form) / sizeof(form[0]);
+	for (i = 0; i < n_formats; i++)
 	{
-		return (-1);
+		if (c == *(form[i].type))
+			return (form[i].funct);
 	}
 
-	length = _strlen(format);
-	number_prints = sizeof(form) / sizeof(form[0]);
-	for (i = 0; i < length; i++)
+	return (NULL);
+}
+/**
+ *_printf - proptotype of print.
+ *@fmt: pointer to format that return a integer
+ *
+ *Return: return size of a string.
+ */
+
+int _printf(const char *fmt, ...)
+{
+	int i, size;
+	va_list args;
+
+	va_start(args, fmt);
+
+	if (fmt == NULL)
+		return (-1);
+
+	for (i = size = 0; fmt[i] != 0; i++)
 	{
-		if (format[i] == '%')
+		if (fmt[i] == '%')
 		{
-			if (format[i + 1] == '\0')
+			i++;
+			if (fmt[i] == 0)
 				return (-1);
 
-			if (format[i + 1] == '%')
+			if (fmt[i] == '%')
 			{
-				i += 1;
-				_putchar('%');
-				numb_char += 1;
+				_putchar('%'), size++;
 				continue;
 			}
-			for (j = 0; j < number_prints; j++)
+
+			if (selector(fmt[i]) ==  NULL)
 			{
-				if (format[i + 1] == *(form[j].type))
-				{
-					numb_char = form[j].funct(prmt) + numb_char;
-					i = i + 1;
-					break;
-				}
+				_putchar('%'), _putchar(fmt[i]);
+				size++;
+			}
+			else
+			{
+				size += selector(fmt[i])(args);
 			}
 		}
 		else
 		{
-			_putchar(format[i]);
-			numb_char = numb_char + 1;
+			_putchar(fmt[i]), size++;
 		}
 	}
-	return (numb_char);
+
+	return (size);
 }
