@@ -14,11 +14,12 @@ int _printf(const char *format, ...)
 	int number_prints;
 	va_list prmt;
 
-	va_start(prmt, format);
 	format_print form[] = {
 		{"c", c_printer},
 		{"s", s_printer}
 	};
+
+	va_start(prmt, format);
 
 	if (format == NULL)
 	{
