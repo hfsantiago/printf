@@ -11,7 +11,9 @@ int (*selector(char c)) (va_list)
 	int n_formats, i;
 	format_print form[] = {
 		{"c", c_printer},
-		{"s", s_printer}
+		{"s", s_printer},
+		{"d", i_printer},
+		{"i", i_printer}
 	};
 
 	n_formats = sizeof(form) / sizeof(form[0]);

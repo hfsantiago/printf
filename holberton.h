@@ -22,8 +22,11 @@ typedef struct _format_print
 
 int c_printer(va_list);
 int s_printer(va_list);
+int i_printer(va_list);
 int _strlen(const char *);
 int _putchar(char c);
 
+char *itoa(long int number, int base);
+int print_all(char *);
 
 #endif
