@@ -1,6 +1,6 @@
 printf
 
-# k_shell
+# k_shell :rocket:
 
 *NO OLVIDAR INCLUIR BOTONES*
 
