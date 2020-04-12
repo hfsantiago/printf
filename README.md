@@ -8,7 +8,7 @@ This is our litle tiny Shell named **k_shell**. If you want to learn about k_she
 
 ![enter image descri pndsfasdf](https://img.shields.io/badge/Advanced-100%-blue?style=for-the-badge&logo=)
 
-![enter image descri pndsfasdf](https://img.shields.io/badge/Wicky_page-http://-orange?style=for-the-badge logo=GitHub-?link=http://www.google.com.co)
+![enter image descri pndsfasdf](https://img.shields.io/badge/Wicky_page-http://-orange?style=for-the-badge logo=GitHub)
 
 ![enter image descri pndsfasdf](https://img.shields.io/badge/Cohort-11-red?style=for-the-badge&logo=Vim)
 
