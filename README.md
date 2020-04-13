@@ -1,3 +1,7 @@
+<p align="center">
+ <img src= "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/106/crocodile_1f40a.png" height="130">
+ </p>
+ 
 <p align="center"> 
 <img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
 <img src="https://img.shields.io/badge/Advanced-100%25-green" />
