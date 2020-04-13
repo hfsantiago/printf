@@ -1,4 +1,9 @@
-<p><img src = "https://img.shields.io/badge/mandatory-100%25-brightgreen" /></p>
+<p align="center"> 
+<img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
+<img src="https://img.shields.io/badge/Advanced-100%25-green" />
+<img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />    
+<img src="https://img.shields.io/badge/Cohort-11-red" />
+</p>
 
 
 # k_shell (Kayman-shell)  :crocodile:
