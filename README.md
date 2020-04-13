@@ -11,7 +11,7 @@
 
 ##
 
-# k_shell (Kayman-shell)  :crocodile:
+# k_shell:crocodile:
 This is our litle tiny Shell named **k_shell**. If you want to learn about k_shell, you can read me. This project was created to **Holberton Schooll.**
 
 
