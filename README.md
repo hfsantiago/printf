@@ -1,6 +1,5 @@
 <p align="center">
- <img src= "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/106/crocodile_1f40a.png" height="130">
- <h1 align="center">kayman-shell</h1>
+ <img src= "https://imgur.com/oH3kvBu" height="130">
  </p>
 
 <p align="center"> 
