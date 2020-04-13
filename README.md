@@ -1,7 +1,7 @@
 <p align="center">
- <img src= "https://i.imgur.com/vSDB4vm.png" />
- <img src = "https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png" />
- </p>
+<img src= "https://i.imgur.com/vSDB4vm.png" />  </p>
+<p align="center"> <img src = "https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png" /></p>
+
 
 <p align="center"> 
 <img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
