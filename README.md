@@ -1,4 +1,4 @@
-<p><img src = "https://img.shields.io/badge/Advanced-100%-blue/></p>
+<p><img src = "https://img.shields.io/badge/Advanced-100%-blue"/></p>
 
 
 # k_shell (Kayman-shell)  :crocodile:
