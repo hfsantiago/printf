@@ -1,6 +1,6 @@
 <p align="center">
+ <img src= "https://files.slack.com/files-pri/T0ENXA7A8-F011PPGACKD/image.png">
  <img src= "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/106/crocodile_1f40a.png" height="130">
- <h1 align = "center" style = "font-size:80px;">kayman-shell</h1>
  </p>
 
 <p align="center"> 
