@@ -1,7 +1,7 @@
 <p align="center">
  <img src= "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/106/crocodile_1f40a.png" height="130">
  </p>
-<h1 align = center>kayman-shell</h1>
+<h1 align = center style = "font-size:50px;">kayman-shell</h1>
 <p align="center"> 
 <img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
 <img src="https://img.shields.io/badge/Advanced-100%25-green" />
