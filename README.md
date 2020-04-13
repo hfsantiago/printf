@@ -1,6 +1,8 @@
 # k_shell (Kayman-shell)  :crocodile:
 This is our litle tiny Shell named **k_shell**. If you want to learn about k_shell, you can read me. This project was created to **Holberton Schooll.**
 
+<p><img src = "https://img.shields.io/badge/Advanced-100%-blue-for-the-badge&logo=Vim/></p>
+
 ##
 ![enter image descri pndsfasdf](https://img.shields.io/badge/Mandatory-100%-blue?style=flat-square&logo)![enter image descri pndsfasdf](https://img.shields.io/badge/Mandatory-100%-green?style=for-the-badge&logo)
 ##
