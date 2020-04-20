@@ -1,17 +1,24 @@
-<center> _printf </center>
+<h1 align="center"> _printf </h1>
 
 <p align="center">
- 
-![enter image descri pndsfasdf](https://img.shields.io/badge/Mandatory-100%-blue?style=flat-square&logo=)
-![enter image descri pndsfasdf](https://img.shields.io/badge/Mandatory-100%-green?style=for-the-badge&logo)
-![enter image descri pndsfasdf](https://img.shields.io/badge/Advanced-100%-blue?style=for-the-badge&logo=)
-![enter image descri pndsfasdf](https://img.shields.io/badge/Wicky_page-http://-orange?style=for-the-badge&logo=GitHub)
-![enter image descri pndsfasdf](https://img.shields.io/badge/Cohort-11-red?style=for-the-badge&logo=Vim)
+<img src= "https://i.imgur.com/vSDB4vm.png" />  </p>
+<p align="center"> <img src = "https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png" /></p>
 
+
+<p align="center"> 
+<img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
+<img src="https://img.shields.io/badge/Advanced-100%25-green" />
+<img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />    
+<img src="https://img.shields.io/badge/Cohort-11-red" />
 </p>
 
-![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)
-This our litel tiny Shell named **k_shell**. If you want to learn about k_shell, you can read me. This project was created to **Holberton Schooll.**
+
+
+##
+
+# k_shell:crocodile:
+This is our litle tiny Shell named **k_shell**. If you want to learn about k_shell, you can read me. This project was created to **Holberton Schooll.**
+
 
 ## Contents :clipboard:
 
