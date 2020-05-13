@@ -1,18 +1,6 @@
 <h1 align="center"> _printf </h1>
 
-<p align="center">
-<img src= "https://i.imgur.com/vSDB4vm.png" />  </p>
-<p align="center"> <img src = "https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png" /></p>
-
-
-<p align="center"> 
-<img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
-<img src="https://img.shields.io/badge/Advanced-100%25-green" />
-<img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />    
-<img src="https://img.shields.io/badge/Cohort-11-red" />
-</p>
-
-
+# Stacks, Queues - LIFO, FIFO :pancakes:                                                                                                                                Imagine that you are cooks a pancakes:pancakes:and you put one over one so if you need to take one necesry you take the last one so that data structure is named like a stack. Similarly exist the queues imagine that you are wait on the bank row :running: :running: :running: :running:  for your turn so is logical the first person came wil be the first person in to out the row and for that reason be attended
 
 ##
 
