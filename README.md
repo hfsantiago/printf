@@ -1,6 +1,7 @@
 <h1 align="center"> _printf </h1>
 
-# Stacks, Queues - LIFO, FIFO :pancakes:                                                                                                                                Imagine that you are cooks a pancakes:pancakes:and you put one over one so if you need to take one necesry you take the last one so that data structure is named like a stack. Similarly exist the queues imagine that you are wait on the bank row :running: :running: :running: :running:  for your turn so is logical the first person came wil be the first person in to out the row and for that reason be attended
+# Stacks, Queues - LIFO, FIFO :pancakes: 
+Imagine that you are cooks a pancakes:pancakes:and you put one over one so if you need to take one necesry you take the last one so that data structure is named like a stack. Similarly exist the queues imagine that you are wait on the bank row :running: :running: :running: :running:  for your turn so is logical the first person came wil be the first person in to out the row and for that reason be attended
 
 ##
 
