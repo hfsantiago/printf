@@ -1,4 +1,7 @@
-<h1 align="center"> _printf </h1>
+<h1 align="center"> 0x1B. C - Sorting algorithms & Big O </h1>
+<p align="center"> <img src = "https://media1.giphy.com/media/QaPkV29BJh3gI/giphy.gif?cid=ecf05e47b3808a1c88b8fafe20fef1e58d98f40b33ac56f0&rid=giphy.gif" /></p>
+
+
 
 # Stacks, Queues - LIFO, FIFO :pancakes:
 
